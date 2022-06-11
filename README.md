@@ -9,11 +9,11 @@ Use the makefile targets to set up the server.
 
 
 Setting up the server.
-    ```bash
-    make
-    ```
+```bash
+make
+```
     
 Uninstalling the server.
-    ```bash
-    make uninstall
-    ```
+```bash
+make uninstall
+```
