@@ -11,5 +11,8 @@ server/versions
 server/world
 server/usercache.json
 
+# Mod files.
+server/dynmap
+
 # World backups.
 backups

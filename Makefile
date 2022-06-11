@@ -4,6 +4,7 @@ default: server install
 
 server:
 	/bin/bash scripts/download-fabric.sh
+	/bin/bash scripts/download-mods.sh
 
 run:
 	/bin/bash scripts/run-server.sh
@@ -19,3 +20,7 @@ backup:
 
 restart:
 	sudo systemctl restart minecraft
+	sudo systemctl status minecraft
+
+logs:
+	journalctl -u minecraft -f
