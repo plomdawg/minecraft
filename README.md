@@ -37,5 +37,4 @@ These are set in [Google Domains](https://domains.google.com/registrar/).
 ```
 mc.domain.name --> SRV record: 50 5 25565 [public IP].
 map.domain.name --> SRV record: 50 5 25569 [public IP].
-
 ```
