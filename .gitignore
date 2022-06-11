@@ -1,0 +1,15 @@
+# VS Code extenstion files.
+.vscode
+
+# Fabric files.
+server/.fabric
+server/fabric.jar
+server/libraries
+server/logs
+server/mods
+server/versions
+server/world
+server/usercache.json
+
+# World backups.
+backups
