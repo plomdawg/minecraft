@@ -1,4 +1,4 @@
-.PHONY: default server run install uninstall backup
+.PHONY: default server run install uninstall backup restart
 
 default: server install
 
@@ -16,3 +16,6 @@ uninstall:
 
 backup:
 	/bin/bash scripts/backup.sh
+
+restart:
+	sudo systemctl restart minecraft
