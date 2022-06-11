@@ -35,6 +35,6 @@ public:25569 --> mc-server:8123  (dynmap)
 These are set in [Google Domains](https://domains.google.com/registrar/).
 
 ```
-mc.domain.name --> SRV record: 50 5 25565 [public IP].
-map.domain.name --> SRV record: 50 5 25569 [public IP].
+__minecraft._tcp.domain.name --> SRV record: 50 5 25565 [public IP].
+map.domain.name --> A record: [public IP] (with traefik running to route the subdomain to port 8123)
 ```
