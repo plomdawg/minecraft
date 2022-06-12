@@ -8,7 +8,7 @@ server/libraries
 server/logs
 server/mods
 server/versions
-server/world
+server/world*
 server/usercache.json
 
 # Mod files.

@@ -83,6 +83,9 @@ SYSTEMD_TIMER
     systemctl enable --now minecraft.service
     systemctl enable --now minecraft-backup.timer
 
+    # Show status
+    systemctl status minecraft.service
+
     echo "Installed systemd service. View logs with:"
     echo "journalctl -u minecraft -f"
 
